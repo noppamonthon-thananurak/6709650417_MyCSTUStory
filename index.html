@@ -8,16 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My CSTU Story</title>
   <link rel="stylesheet" href="mystyle.css">
-  <link rel="Icon" type="image/png" href="resources/img/Icon.png">
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <link rel="icon" type="image/png" href="resources/img/Icon.png">
 </head>
 
-<body id="hm">
+<body id="mf">
   <header>
     <div class="navigatebar">
       <div class="logo">
@@ -28,104 +22,77 @@
       <div style="margin-right: 60%; font-weight: 500; font-size: large;">My CSTU Story</div>
       <nav>
         <ul>
-          <li><a id="Hm" href="">Home</a></li>
-          <li><a id="AM" href="myjourney.html">My journey</a></li>
-          <li><a id="con" href="myfuture.html">My future</a></li>
+          <li><a>Home</a></li>
+          <li><a href="myjourney.html">My Journey</a></li>
+          <li><a href="myfuture.html">My Future</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
-  <section id="Home" class="Home-section">
-    <div class="Home-content">
-      <h1>Intro
-        ducing</h1>
-      <p> <span style="font-weight: 700; font-size: 25px;">Hey, What's up.</span> My name is Noppamonthon Thananurak,
-        Just call me <span style="font-weight: 500;">Gene(Yean).</span> Anyway, nice to meet you though.</p>
-      <p>
-        <p1>First of all welcome to my CSTU Story website.
-          <br>Here, I've collected some info about me, I think.<br>
-          So you might get to know me more or less.
-        </p1>
-      </p>
-    </div>
-    <div class="Home-image">
-      <img src="resources/img/mypic.jpg" style="position: absolute; top: 280px; border-radius: 5%; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" alt="mypicture">
-      <img src="resources/img/mypic2.jpg" style="position: absolute; left: 200px; border-radius: 5%; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" alt="mypicture">
-    </div>
-  </section>
-
-  <section id="AboutMe" class="AboutMe-section">
-    <div class="AboutMe-content">
-      <h2>About
-        Me</h2>
-      <p>
+  <div class="container">
+    <section class="intro">
+      <h1>Introducing</h1>
+      <p><strong>Hey, What's up.</strong> My name is Noppamonthon Thananurak. Just call me <em>Gene (Yean)</em>. Nice to
+        meet you!</p>
+      <p>Welcome to my CSTU Story website. Here, I've collected some info about myself, so you might get to know me a
+        bit better.</p>
+      <div class="Home-image">
+        <img src="resources/img/mypic.jpg" class="profile-pic" alt="Profile picture 1">
+        <img src="resources/img/mypic2.jpg" class="profile-pic" alt="Profile picture 2">
+      </div>
+    </section>
+    <section class="about">
+      <h1>About Me</h1>
       <ul>
-        <li>Name: Noppamonthon Thananurak</li>
-        <li>Nickname: Gene</li>
-        <li>Birth date: 29 August 2005</li>
-        <li>Age: 19</li>
-        <li>Blood type: A</li>
-        <li>Religion: Buddhism</li>
-        <li>Nationality: Thai</li>
-        <li>Ethnicity: Thai</li>
+        <p>Name: Noppamonthon Thananurak</p>
+        <p>Nickname: Gene</p>
+        <p>Birth date: 29 August 2005</p>
+        <p>Age: 19</p>
+        <p>Blood type: A</p>
+        <p>Religion: Buddhism</p>
+        <p>Nationality: Thai</p>
+        <p>Ethnicity: Thai</p>
       </ul>
-      </p>
-    </div>
-    <div>
-      <h3>Introducing Video</h3>
-      <h4>This song totally reflects my life.</h4>
-    </div>
-    <div class="AboutMe-vdo">
-      <video src="resources/img/myvdo.mp4" alt="myvideo" controls poster="resources/img/vdo thumbnail.png"></video>
-      <video id="คนคนนึง" src="resources/img/คนคนนึง.mp4" alt="คนคนนึง" controls
-        poster="resources/img/คนคนนึง.jpg"></video>
-    </div>
-  </section>
-
-  <section id="Contacts" class="Contacts-section">
-    <div class="Contacts-content">
-      <h2>Contacts</h2>
+      <div class="AboutMe-vdo">
+        <video src="resources/img/myvdo.mp4" controls poster="resources/img/vdo thumbnail.png"></video>
+        <video src="resources/img/คนคนนึง.mp4" controls poster="resources/img/คนคนนึง.jpg"></video>
+      </div>
+    </section>
+    <section class="contact">
+      <h1>Contact</h1>
       <p>I have some social media if you want to follow or text me through dm,<br> But you can also directly contact me
         via
         Phone number or Line ID,<br> <mark>But please don't call me in the middle of the night.😭
         </mark>
       </p>
       <p>Email:</p>
-      <a href="mailto:someone@example.com" style="font-size: larger; font-weight: 500;" id="ct"> minsney4825@gmail.com</a>
+      <a href="mailto:someone@example.com" style="font-size: larger; font-weight: 500;" id="ct">
+        minsney4825@gmail.com</a>
       <p>Phone: </p>
       <ul><a href="tel:0991616044" style="font-size: larger; font-weight: 500;" id="ct">099-161-6044</a></ul>
-    </div>
 
-    <div class="Contacts-image" style="margin-left: 100px;">
-      <div id="line-img">
-        <a href="https://line.me/ti/p/-W8_IfFhfy" target="_blank">
-          <img src="resources/img/line.png" width="100px" height="100px" alt="line">
-        </a>
+      <div class="Contacts-image">
+        <div id="line-img">
+          <a href="https://line.me/ti/p/-W8_IfFhfy" target="_blank">
+            <img src="resources/img/line.png" alt="line">
+          </a>
+        </div>
+
+        <div id="ig-img">
+          <a href="https://www.instagram.com/fvgpj_gn/" target="_blank">
+            <img src="resources/img/instagram.png" alt="instagram">
+          </a>
+        </div>
+
+        <div id="facebook-img">
+          <a href="https://www.facebook.com/noppamonthon.thananurak?locale=th_TH" target="_blank">
+            <img src="resources/img/facebook.png" alt="facebook">
+          </a>
+        </div>
       </div>
-
-      <div id="ig-img" style="margin-left: 100px;">
-        <a href="https://www.instagram.com/fvgpj_gn/" target="_blank">
-          <img src="resources/img/instagram.png" width="100px" height="100px" alt="instagram">
-        </a>
-      </div>
-
-      <div id="facebook-img" style="margin-left: 100px;">
-        <a href="https://www.facebook.com/noppamonthon.thananurak?locale=th_TH" target="_blank">
-          <img src="resources/img/facebook.png" width="100px" height="100px" alt="facebook">
-        </a>
-      </div>
-      <footer>
-        
-      </footer>
-    </div>
-  </section>
-  <footer id="hft">
-    <p> 2024 Noppamonthon Thananurak.</p>
-    <p><a href="#Home" id="backtotop" style="color: aliceblue;">Back to top</a></p>
-  </footer>
-
+    </section>
+  </div>
+  </div>
 </body>
-
 
 </html>
